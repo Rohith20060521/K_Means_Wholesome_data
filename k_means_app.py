@@ -13,7 +13,7 @@ st.write(
     "purchasing behavior and similarities."
 )
 
-df = pd.read_csv("Wholesale customers data.csv")
+df = pd.read_csv("Wholesale.csv")
 
 numeric_features = [
     'Fresh', 'Milk', 'Grocery', 'Frozen',
@@ -93,3 +93,4 @@ if run:
         "📌 Customers grouped in the same cluster exhibit similar purchasing behaviour "
         "and can be targeted using similar business strategies "
     )
+
